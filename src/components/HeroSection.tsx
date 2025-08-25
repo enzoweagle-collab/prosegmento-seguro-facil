@@ -18,20 +18,8 @@ const HeroSection = () => {
               Proteção completa para você e sua família
             </h1>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Somos especialistas em seguros com mais de 15 anos de experiência. 
-              Oferecemos as melhores soluções em seguro de vida, auto, empresarial e muito mais.
+              Somos especialistas em seguros. Oferecemos as melhores soluções em seguro de vida, auto, empresarial e muito mais.
             </p>
-            <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
-              <div className="bg-primary/10 px-4 py-2 rounded-full">
-                <span className="text-primary font-medium">Seguro de Vida</span>
-              </div>
-              <div className="bg-primary/10 px-4 py-2 rounded-full">
-                <span className="text-primary font-medium">Seguro de Auto</span>
-              </div>
-              <div className="bg-primary/10 px-4 py-2 rounded-full">
-                <span className="text-primary font-medium">Seguro Empresarial</span>
-              </div>
-            </div>
           </div>
           <div className="flex justify-center">
             <LeadForm title="Receba sua cotação gratuita" />

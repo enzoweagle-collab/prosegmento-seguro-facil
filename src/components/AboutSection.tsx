@@ -2,7 +2,7 @@ import marceloFilippi from "@/assets/marcelo-filippi.png";
 
 const AboutSection = () => {
   return (
-    <section className="py-20 bg-muted/20">
+    <section className="py-16 bg-muted/20">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl lg:text-4xl font-bold text-center text-primary mb-12">
@@ -28,19 +28,11 @@ const AboutSection = () => {
               </div>
             </div>
             <div className="order-1 lg:order-2 flex justify-center">
-              <div className="relative">
-                <img
-                  src={marceloFilippi}
-                  alt="Marcelo Filippi"
-                  className="rounded-lg shadow-2xl max-w-sm w-full"
-                />
-                <div className="absolute -bottom-4 -right-4 bg-primary text-primary-foreground p-4 rounded-lg shadow-lg">
-                  <div className="text-center">
-                    <div className="text-2xl font-bold">15+</div>
-                    <div className="text-sm">Anos de experiência</div>
-                  </div>
-                </div>
-              </div>
+              <img
+                src={marceloFilippi}
+                alt="Marcelo Filippi"
+                className="rounded-lg shadow-2xl max-w-sm w-full"
+              />
             </div>
           </div>
         </div>

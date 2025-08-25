@@ -26,7 +26,7 @@ const Index = () => {
       <ServicesSection />
       
       {/* Middle CTA Button */}
-      <section className="py-12 bg-muted/30">
+      <section className="py-8 bg-muted/30">
         <div className="container mx-auto text-center">
           <Button 
             variant="quote" 

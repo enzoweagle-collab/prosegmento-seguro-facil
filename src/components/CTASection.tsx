@@ -7,7 +7,7 @@ interface CTASectionProps {
 
 const CTASection = ({ onQuoteClick }: CTASectionProps) => {
   return (
-    <section className="py-20 bg-primary text-primary-foreground">
+    <section className="py-16 bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl lg:text-5xl font-bold mb-6">
           Vamos fechar negócio?

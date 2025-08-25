@@ -36,18 +36,18 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="py-20 bg-background">
+    <section className="py-16 bg-primary text-primary-foreground">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center text-primary mb-4">
+          <h2 className="text-3xl lg:text-4xl font-bold text-center text-primary-foreground mb-4">
             Nossos Serviços
           </h2>
-          <p className="text-xl text-center text-muted-foreground mb-12 max-w-3xl mx-auto">
+          <p className="text-xl text-center text-primary-foreground/90 mb-12 max-w-3xl mx-auto">
             Oferecemos uma ampla gama de seguros para proteger o que mais importa para você
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((service, index) => (
-              <Card key={index} className="h-full hover:shadow-lg transition-shadow duration-300">
+              <Card key={index} className="h-full hover:shadow-lg transition-shadow duration-300 bg-primary-foreground text-primary border-primary-foreground/20">
                 <CardHeader className="text-center">
                   <div className="mx-auto mb-4 p-3 bg-primary/10 rounded-full w-fit">
                     <service.icon className="w-8 h-8 text-primary" />
